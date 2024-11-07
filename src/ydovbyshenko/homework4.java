@@ -11,7 +11,7 @@ public class homework4 {
 
         System.out.println("Product No " + number+ ": " + productName + ",");
         System.out.println("total sales for " + productDays + " days is EUR " + productTotalSales + ",");
-        System.out.printf("sales by day is EUR " + productDailySales + ".\n");
+        System.out.printf("sales by day is EUR %.2f.\n", productDailySales);
 
         number++;
         productName = "laptop";
@@ -22,7 +22,7 @@ public class homework4 {
 
         System.out.println("Product No " + number+ ": " + productName + ",");
         System.out.println("total sales for " + productDays + " days is EUR " + productTotalSales + ",");
-        System.out.printf("sales by day is EUR " + productDailySales + ".");
+        System.out.printf("sales by day is EUR %.2f.", productDailySales);
 
     }
 }
