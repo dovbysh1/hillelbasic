@@ -1,6 +1,6 @@
 package ydovbyshenko;
 
-public class homework4 {
+public class Homework4 {
     public static void main(String[] args) {
         byte number = 1;
         String productName = "smartphone";
