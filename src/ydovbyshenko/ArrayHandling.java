@@ -68,6 +68,7 @@ public class ArrayHandling {
                 sum += array[i];
             }
             System.out.println("Середнє арифметичне чисел після першого від'ємного числа: " + sum);
+
         }
     }
 }
