@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#6.1 SumNumbers">
+    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#7.1 ArrayHandling">
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/MultidimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/SortAndSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ydovbyshenko/SumNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ydovbyshenko/SumNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
     &quot;accountId&quot;: &quot;700e24d3-4870-4a8b-b74d-61cb42f6f95f&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -46,6 +50,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayHandling.executor": "Run",
+    "Application.MultidimensionalArrays.executor": "Run",
+    "Application.SortAndSearch.executor": "Run",
     "Application.SumNumbers.executor": "Run",
     "Application.TaxCalculator.executor": "Run",
     "Application.homework4.executor": "Run",
@@ -58,6 +65,54 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.MultidimensionalArrays">
+    <configuration name="ArrayHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.ArrayHandling" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultidimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.MultidimensionalArrays" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortAndSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.SortAndSearch" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MultidimensionalArrays" />
+        <item itemvalue="Application.SortAndSearch" />
+        <item itemvalue="Application.ArrayHandling" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,7 +162,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731605609171</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#6.1 SumNumbers">
+      <option name="closed" value="true" />
+      <created>1731702162128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731702162128</updated>
+    </task>
+    <task id="LOCAL-00007" summary="#7.1 ArrayHandling">
+      <option name="closed" value="true" />
+      <created>1732206647757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732206647757</updated>
+    </task>
+    <task id="LOCAL-00008" summary="#7.1 ArrayHandling">
+      <option name="closed" value="true" />
+      <created>1732206721059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732206721059</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +204,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="#4.1 sum of sales" />
     <MESSAGE value="#6.1 SumNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="#6.1 SumNumbers" />
+    <MESSAGE value="#7.1 ArrayHandling" />
+    <option name="LAST_COMMIT_MESSAGE" value="#7.1 ArrayHandling" />
   </component>
 </project>
