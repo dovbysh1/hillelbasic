@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#7.1 ArrayHandling">
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/MultidimensionalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/SortAndSearch.java" afterDir="false" />
+    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#11.1 Person">
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/WorkingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/person/PersonDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +53,11 @@
   "keyToString": {
     "Application.ArrayHandling.executor": "Run",
     "Application.MultidimensionalArrays.executor": "Run",
+    "Application.PersonDemo.executor": "Run",
     "Application.SortAndSearch.executor": "Run",
     "Application.SumNumbers.executor": "Run",
     "Application.TaxCalculator.executor": "Run",
+    "Application.WorkingMethods.executor": "Run",
     "Application.homework4.executor": "Run",
     "Application.аа.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +68,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MultidimensionalArrays">
+  <component name="RunManager" selected="Application.PersonDemo">
     <configuration name="ArrayHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ydovbyshenko.ArrayHandling" />
       <module name="My-App" />
@@ -92,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.person.PersonDemo" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortAndSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ydovbyshenko.SortAndSearch" />
       <module name="My-App" />
@@ -105,8 +121,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.WorkingMethods" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonDemo" />
+        <item itemvalue="Application.WorkingMethods" />
         <item itemvalue="Application.MultidimensionalArrays" />
         <item itemvalue="Application.SortAndSearch" />
         <item itemvalue="Application.ArrayHandling" />
@@ -186,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732206721059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="#9.1 MultidimensionalArrays">
+      <option name="closed" value="true" />
+      <created>1733131107168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733131107169</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +244,8 @@
     <MESSAGE value="#4.1 sum of sales" />
     <MESSAGE value="#6.1 SumNumbers" />
     <MESSAGE value="#7.1 ArrayHandling" />
-    <option name="LAST_COMMIT_MESSAGE" value="#7.1 ArrayHandling" />
+    <MESSAGE value="#9.1 MultidimensionalArrays" />
+    <MESSAGE value="#11.1 Person" />
+    <option name="LAST_COMMIT_MESSAGE" value="#11.1 Person" />
   </component>
 </project>
