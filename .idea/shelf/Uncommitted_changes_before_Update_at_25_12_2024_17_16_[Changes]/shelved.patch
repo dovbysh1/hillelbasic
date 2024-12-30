@@ -1,0 +1,22 @@
+Index: src/ydovbyshenko/WorkingMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ydovbyshenko;\r\n\r\npublic class WorkingMethods {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/ydovbyshenko/WorkingMethods.java b/src/ydovbyshenko/WorkingMethods.java
+--- a/src/ydovbyshenko/WorkingMethods.java	(revision 1f59f188bf4186d865b625655bc166fb2f825404)
++++ b/src/ydovbyshenko/WorkingMethods.java	(date 1735138159908)
+@@ -1,7 +1,12 @@
+ package ydovbyshenko;
+ 
+ public class WorkingMethods {
+-    public static void main(String[] args) {
++    public static void square(int number) {
++        System.out.println("Квадрат числа" + number + "дорівнює" + (number * number) + ".");
++    }
+ 
++    public static double cylinderVolume(double radius, double height) {
++        return  Math.PI * radius * radius * height;
+     }
++
+ }
