@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#12.1 Encapsulation" />
+    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#12.1 Encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +64,7 @@
     "Application.TaxCalculator.executor": "Run",
     "Application.WorkingMethods.executor": "Run",
     "Application.homework4.executor": "Run",
+    "Application.ydovbyshenko.polymorphism.Main.executor": "Run",
     "Application.аа.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -65,7 +74,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.ydovbyshenko.polymorphism.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ydovbyshenko.encapsulation.Main" />
       <module name="My-App" />
@@ -118,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.WorkingMethods" />
+    <configuration name="ydovbyshenko.polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.polymorphism.Main" />
       <module name="My-App" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ydovbyshenko.*" />
+          <option name="PATTERN" value="ydovbyshenko.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ydovbyshenko.polymorphism.Main" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SortAndSearch" />
         <item itemvalue="Application.PersonDemo" />
-        <item itemvalue="Application.WorkingMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735492320927</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="#12.1 Encapsulation">
+      <option name="closed" value="true" />
+      <created>1735492457520</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735492457520</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
