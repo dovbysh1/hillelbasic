@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#12.1 Encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/polymorphism/Triangle.java" afterDir="false" />
+    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#13.1 Polymorphism">
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/printer/MessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/printer/PrinterDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +56,7 @@
     "Application.Main.executor": "Run",
     "Application.MultidimensionalArrays.executor": "Run",
     "Application.PersonDemo.executor": "Run",
+    "Application.PrinterDemo.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.SortAndSearch.executor": "Run",
     "Application.SumNumbers.executor": "Run",
@@ -65,6 +64,7 @@
     "Application.WorkingMethods.executor": "Run",
     "Application.homework4.executor": "Run",
     "Application.ydovbyshenko.polymorphism.Main.executor": "Run",
+    "Application.ydovbyshenko.printer.Main.executor": "Run",
     "Application.аа.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -74,7 +74,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ydovbyshenko.polymorphism.Main">
+  <component name="RunManager" selected="Application.PrinterDemo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ydovbyshenko.encapsulation.Main" />
       <module name="My-App" />
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.person.PersonDemo" />
+    <configuration name="PrinterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.printer.PrinterDemo" />
       <module name="My-App" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ydovbyshenko.person.*" />
+          <option name="PATTERN" value="ydovbyshenko.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortAndSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.SortAndSearch" />
-      <module name="My-App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ydovbyshenko.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ydovbyshenko.polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ydovbyshenko.polymorphism.Main" />
       <module name="My-App" />
@@ -140,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ydovbyshenko.printer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.printer.Main" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.printer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrinterDemo" />
+        <item itemvalue="Application.ydovbyshenko.printer.Main" />
         <item itemvalue="Application.ydovbyshenko.polymorphism.Main" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SortAndSearch" />
-        <item itemvalue="Application.PersonDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735492457520</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="#13.1 Polymorphism">
+      <option name="closed" value="true" />
+      <created>1735557239141</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735557239141</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#13.1 Polymorphism">
+      <option name="closed" value="true" />
+      <created>1735557283452</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735557283452</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +293,7 @@
     <MESSAGE value="#9.1 MultidimensionalArrays" />
     <MESSAGE value="#11.1 Person" />
     <MESSAGE value="#12.1 Encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="#12.1 Encapsulation" />
+    <MESSAGE value="#13.1 Polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="#13.1 Polymorphism" />
   </component>
 </project>
