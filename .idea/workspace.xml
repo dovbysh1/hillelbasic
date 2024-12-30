@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#13.1 Polymorphism">
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/printer/MessagePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/printer/PrinterDemo.java" afterDir="false" />
+    <list default="true" id="028f131a-ae24-4860-948c-78f3824726e1" name="Changes" comment="#14.1 Printer">
+      <change afterPath="$PROJECT_DIR$/src/ydovbyshenko/WeeklyAdvisor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +59,7 @@
     "Application.SortAndSearch.executor": "Run",
     "Application.SumNumbers.executor": "Run",
     "Application.TaxCalculator.executor": "Run",
+    "Application.WeeklyAdvisor.executor": "Run",
     "Application.WorkingMethods.executor": "Run",
     "Application.homework4.executor": "Run",
     "Application.ydovbyshenko.polymorphism.Main.executor": "Run",
@@ -74,20 +73,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrinterDemo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.encapsulation.Main" />
-      <module name="My-App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ydovbyshenko.encapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WeeklyAdvisor">
     <configuration name="PrinterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ydovbyshenko.printer.PrinterDemo" />
       <module name="My-App" />
@@ -107,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ydovbyshenko.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeeklyAdvisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ydovbyshenko.WeeklyAdvisor" />
+      <module name="My-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ydovbyshenko.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeeklyAdvisor" />
         <item itemvalue="Application.PrinterDemo" />
         <item itemvalue="Application.ydovbyshenko.printer.Main" />
         <item itemvalue="Application.ydovbyshenko.polymorphism.Main" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735557283452</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="#14.1 Printer">
+      <option name="closed" value="true" />
+      <created>1735567634991</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735567634991</updated>
+    </task>
+    <task id="LOCAL-00016" summary="#14.1 Printer">
+      <option name="closed" value="true" />
+      <created>1735567666720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735567666720</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +309,7 @@
     <MESSAGE value="#11.1 Person" />
     <MESSAGE value="#12.1 Encapsulation" />
     <MESSAGE value="#13.1 Polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="#13.1 Polymorphism" />
+    <MESSAGE value="#14.1 Printer" />
+    <option name="LAST_COMMIT_MESSAGE" value="#14.1 Printer" />
   </component>
 </project>
