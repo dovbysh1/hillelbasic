@@ -54,7 +54,7 @@ public class Methods {
         System.out.println("Сума всіх елементів масиву дорівнює " + sumArray(array));
 
         System.out.println("\nВведіть рядок:");
-        scanner.nextLine(); // Очистка буфера
+        scanner.nextLine();
         String str = scanner.nextLine();
         System.out.println("Рядок у зворотному порядку: " + reverseString(str));
 
@@ -67,7 +67,7 @@ public class Methods {
         System.out.println("\nВведіть ціле число n:");
         int n = scanner.nextInt();
         System.out.println("Введіть текстовий рядок:");
-        scanner.nextLine(); // Очистка буфера
+        scanner.nextLine();
         String text = scanner.nextLine();
         printTextNTimes(n, text);
 
